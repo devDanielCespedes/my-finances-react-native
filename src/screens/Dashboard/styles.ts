@@ -7,9 +7,7 @@ import {
   getStatusBarHeight,
 } from "react-native-iphone-x-helper";
 
-
 import { DataListProps } from "./Dashboard";
-
 
 export const Container = styled.View`
   flex: 1;
@@ -105,3 +103,9 @@ export const TransactionList = styled(
     paddingBottom: getBottomSpace(),
   },
 })``;
+
+export const LoadCOntainer = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+`;
